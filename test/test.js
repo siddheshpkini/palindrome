@@ -23,7 +23,10 @@ describe("Phrase", function(){
             assert(punctuatedPalindrome.palindrome());
         });
 
-        
+        it("should return false for a empty phrase", function(){
+            let emptyPhrase = new Phrase("");
+            assert(!emptyPhrase.palindrome());
+        });
 
         describe("#letters", function(){
             it("should return only letters", function(){

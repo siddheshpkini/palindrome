@@ -27,7 +27,10 @@ function Phrase(content) {
     }
     //returns true for a palindrome, false otherwise.
     this.palindrome = function palindrome(){
+        if(this.content)
         return this.processedContent() === reverse(this.processedContent());
+        else 
+        return false;
     }    
 }
 
