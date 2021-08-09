@@ -25,6 +25,9 @@
     "test": "test"
   },
   "dependencies": {
+    "fs": "^0.0.1-security",
+    "jsdom": "^16.7.0",
+    "request": "^2.88.2",
     "siddheshpk-palindrome": "^0.1.0"
   }
 }
